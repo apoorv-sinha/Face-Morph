@@ -1,0 +1,52 @@
+#my_camera,#my_camera-1{
+    width: 320px;
+    height: 240px;
+    border: 1px solid black;
+}
+#main{
+    display: flex;
+    flex-direction: row;
+}
+/* #results{
+    width: 320px;
+       height: 240px;
+} */
+body{
+    background-image: linear-gradient(to right,#EAFFFD, #80FAFF);
+}
+.firstCol{
+    margin-top: 2rem;
+}
+.pre_capture_frame{
+    margin-top: 2rem;
+}
+.after_capture_frame{
+    margin-top: 2rem;
+}
+.saveButtonSecond{
+    margin-bottom: 1rem;
+}
+.captureLabel{
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+}
+.configButton{
+    margin-top: 1rem;
+    background-color:#5CE1E6;
+    border-radius: 1.5rem;
+    border-width: 0.1rem;
+}
+.resultLabel{
+    font-size:2rem;
+    letter-spacing: 0.1rem;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1
+{
+    font-weight: 900;
+}
